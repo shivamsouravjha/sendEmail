@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .topics-table {
+            width: 100%;
+        }
+        .topics-table td {
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px; /* This margin may cause issues with alignment, consider removing it */
+            box-sizing: border-box; /* Ensures padding is included in the width */
+            vertical-align: top; /* Aligns content to the top of the cell */
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #0093D5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .title,
+        .footer a {
+            color: #0093D5;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #eeeeee;
+            color: #333333;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .topic {
+            margin-bottom: 20px;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        .topic h3 {
+            color: #00539C;
+            font-size: 18px;
+        }
+
+        .topic p {
+            font-size: 14px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: #0093D5;
+            color: #FFFFFF;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 3px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0071BC;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            /* Default font size */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Responsive font size for screens smaller than or equal to 600px */
+        @media screen and (max-width: 600px) {
+            .header h1, .header h2, .section h2, .section h3, .section p {
+                font-size: 20px;
+            }
+        }
+
+        .header h2 {
+            font-size: 20px;
+            /* Default font size */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Responsive font size for screens smaller than or equal to 600px */
+        @media screen and (max-width: 600px) {
+            .header h2 {
+                font-size: 15px;
+                /* Smaller font size for mobile */
+            }
+        }
+
+        .section h2 {
+            color: #0093D5;
+            font-size: 20px;
+            /* Default font size */
+            margin-top: 8%;
+            padding: 0;
+        }
+
+        /* Responsive font size for screens smaller than or equal to 600px */
+        @media screen and (max-width: 600px) {
+            .section h2 {
+                font-size: 16px;
+                /* Smaller font size for mobile */
+            }
+        }
+
+        .section h3 {
+            font-size: 20px;
+            /* Default font size */
+        }
+
+        /* Responsive font size for screens smaller than or equal to 600px */
+        @media screen and (max-width: 600px) {
+            .section h3 {
+                font-size: 14px;
+                /* Smaller font size for mobile */
+            }
+        }
+
+        .section p {
+            font-size: 20px;
+            /* Default font size */
+        }
+
+        /* Responsive font size for screens smaller than or equal to 600px */
+        @media screen and (max-width: 600px) {
+            .section p {
+                font-size: 11px;
+                /* Smaller font size for mobile */
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
+    <div class="container" style="width: 100%; background-color: #ffffff;">
+        <div class="header" style="background-color: #0093D5; color: white; padding: 20px; text-align: center;">
+            <div class="header">
+
+                <h1>WHO South East Asia Region</h1>
+                <img src="cid:myimagecid" alt="WHO Logo" style="width: 200px; height: auto;">
+
+            </div>
+        </div>
+        <div class="header"
+            style="background-color: #0093D5; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
+            <h2>Vaccine news – Monthly Update</h2>
+            <div style="flex: 1;"></div> <!-- This will push the following element to the right -->
+            <h2>April 2024</h2>
+        </div>
+
+
+        <div class="section" style="padding: 20px; border-bottom: 1px solid #eeeeee;">
+            <!-- <img src="path-to-article-thumbnail.jpg" alt="Article Thumbnail" class="thumbnail" jslog="138226; u014N:xr6bB; 53:WzAsMF0."> -->
+            <h2>Mental Wellness Project Supports Students During COVID-19</h2>
+            <p>Researchers are working with children in Baltimore to learn about student resilience during the pandemic.
+            </p>
+            <!-- Replace href with the link to your story -->
+            <a href="link-to-your-story" class="button"
+                style="background-color: #0093D5; color: #FFFFFF; padding: 10px 15px; text-decoration: none; display: inline-block; border-radius: 3px; font-weight: bold; border: none; cursor: pointer;">Read
+                Full Story</a>
+        </div>
+
+
+        <div class="section covid-topics">
+            <table class="topics-table" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td width="50%" style="padding: 15px; margin: 10px; background-color: #ffffff; border-radius: 5px;">
+                        <h3 style="color: #0093D5; font-weight: bold;">LONG COVID</h3>
+                        <p>NIH research updates and resources for Long COVID.</p>
+                        <a href="link-to-long-covid" class="button"
+                            style="background-color: #0093D5; color: #FFFFFF; padding: 10px 15px; text-decoration: none; display: inline-block; border-radius: 3px; font-weight: bold; border: none; cursor: pointer;">Learn
+                            More</a>
+                    </td>
+                    <td width="50%" style="padding: 15px; margin: 10px; background-color: #ffffff; border-radius: 5px;">
+                        <h3 style="color: #0093D5; font-weight: bold;">MENTAL HEALTH</h3>
+                        <p>Tips from NIH for coping with COVID-19.</p>
+                        <a href="link-to-mental-health" class="button"
+                            style="background-color: #0093D5; color: #FFFFFF; padding: 10px 15px; text-decoration: none; display: inline-block; border-radius: 3px; font-weight: bold; border: none; cursor: pointer;">Learn
+                            More</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%" style="padding: 15px; margin: 10px; background-color: #ffffff; border-radius: 5px;">
+                        <h3 style="color: #0093D5; font-weight: bold;">TREATMENTS</h3>
+                        <p>The latest on treatments and other therapies for COVID-19.</p>
+                        <a href="link-to-treatments" class="button"
+                            style="background-color: #0093D5; color: #FFFFFF; padding: 10px 15px; text-decoration: none; display: inline-block; border-radius: 3px; font-weight: bold; border: none; cursor: pointer;">Learn
+                            More</a>
+                    </td>
+                    <td width="50%" style="padding: 15px; margin: 10px; background-color: #ffffff; border-radius: 5px;">
+                        <h3 style="color: #0093D5; font-weight: bold;">VACCINES</h3>
+                        <p>Information on COVID-19 vaccine guidelines, development, and safety.</p>
+                        <a href="link-to-vaccines" class="button"
+                            style="background-color: #0093D5; color: #FFFFFF; padding: 10px 15px; text-decoration: none; display: inline-block; border-radius: 3px; font-weight: bold; border: none; cursor: pointer;">Learn
+                            More</a>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+
+        <div class="footer">
+            <!-- Replace href with your own links -->
+            <p>Update Your Email Address | <a href="link-to-subscriptions">Add Subscriptions</a> | <a
+                    href="link-to-unsubscribe">Unsubscribe All</a></p>
+            <p>If you have questions or problems with the subscription service, please contact <a
+                    href="mailto:subscriberhelp@govdelivery.com">subscriberhelp@govdelivery.com</a>.</p>
+            <p>This service is provided to you by the National Institutes of Health.</p>
+            <!-- Include additional footer links and information here -->
+        </div>
+    </div>
+</body>
+
+</html>
