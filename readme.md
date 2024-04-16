@@ -1,7 +1,3 @@
-# mailer
-
-A brief description of your project.
-
 ## Description
 
 This project is designed to send emails to a list of recipients whose email addresses are provided. It automates the process of sending bulk emails, making it convenient for users to reach out to multiple recipients simultaneously. The project ensures efficient communication and saves time by eliminating the need for manual email sending to each recipient individually.
@@ -11,8 +7,7 @@ This project is designed to send emails to a list of recipients whose email addr
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
